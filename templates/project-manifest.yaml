@@ -1,0 +1,58 @@
+# AlTone Engineering Project Manifest
+# Copy this file to the root of an approved engineering repository
+# and replace placeholder values with documented facts.
+
+manifest_version: "1.0"
+
+project:
+  name: "PROJECT_NAME"
+  repository: "OWNER/REPOSITORY"
+  family: "ai-computing-system" # or physical-platform
+  standards_version: "1.0"
+  status: "planned"
+  last_reviewed: "YYYY-MM-DD"
+
+ownership:
+  owner: "Alton Hampton"
+  final_authority: "Alton Hampton"
+
+authoritative_paths:
+  readme: "README.md"
+  vision: "PROJECT_VISION.md"
+  current_state: "PATH_TO_CURRENT_STATE"
+  architecture: "PATH_TO_ARCHITECTURE"
+  roadmap: "ROADMAP.md"
+  todo: "TODO.md"
+  changelog: "CHANGELOG.md"
+  engineering_journal: "PATH_TO_ENGINEERING_JOURNAL"
+  design_decisions: "PATH_TO_DESIGN_DECISIONS"
+  lessons_learned: "PATH_TO_LESSONS_LEARNED"
+  testing: "PATH_TO_TESTING"
+  operations: "PATH_TO_OPERATIONS"
+  reference: "PATH_TO_REFERENCE"
+  configuration: "PATH_TO_CONFIGURATION"
+
+# Use only the roles that apply to the project.
+# Physical platforms may define mechanical, electrical, and computing/control paths.
+# AI/computing systems may define workstation/hardware, development, monitoring,
+# scripts, documentation, learning, and configuration paths.
+information_roles:
+  foundation: "00_Foundation"
+  architecture: "01_Architecture_OR_01_System_Architecture"
+  current_state: "PATH_TO_CURRENT_STATE"
+
+privacy:
+  repository_visibility: "private" # private or public
+  contains_private_assets: false
+  private_asset_policy: "PATH_OR_NOT_APPLICABLE"
+
+migration:
+  state: "not-required" # not-required, planned, in-progress, validated
+  migration_map: "NOT_APPLICABLE"
+  previous_structure_version: "NOT_APPLICABLE"
+
+retrieval:
+  github_is_authoritative: true
+  distinguish_planned_from_operational: true
+  distinguish_estimates_from_measurements: true
+  preferred_status_source: "PATH_TO_CURRENT_STATE"
