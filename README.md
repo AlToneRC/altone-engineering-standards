@@ -51,6 +51,7 @@ Current and planned examples:
 - Praxis Aqua 1
 - Ark Faithful Rover
 - Cherub Wings
+- Witness
 - Future physical research and mission platforms
 
 Standard:
@@ -65,10 +66,12 @@ All repositories must follow the shared requirements defined in:
 
 - [`standards/Common_Repository_Requirements.md`](standards/Common_Repository_Requirements.md)
 - [`standards/AI_Retrieval_and_Manifest_Standard.md`](standards/AI_Retrieval_and_Manifest_Standard.md)
+- [`standards/Platform_Naming_and_Purpose_Standard.md`](standards/Platform_Naming_and_Purpose_Standard.md)
 
-A reusable manifest template is available at:
+Reusable templates are available at:
 
 - [`templates/project-manifest.yaml`](templates/project-manifest.yaml)
+- [`templates/Platform_Name_and_Biblical_Foundation.md`](templates/Platform_Name_and_Biblical_Foundation.md)
 
 ## Migration Policy
 
@@ -93,6 +96,7 @@ This standards repository supports the wider AlTone Engineering Library, includi
 - Praxis Aqua 1
 - Ark Faithful Rover
 - Cherub Wings
+- Witness
 - Ground stations and field systems
 - Future AlTone engineering projects
 

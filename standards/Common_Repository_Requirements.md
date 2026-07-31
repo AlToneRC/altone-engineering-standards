@@ -20,6 +20,7 @@ This standard defines the requirements shared by every approved AlTone engineeri
 Every active engineering repository should contain:
 
 - `README.md`
+- `NAME_AND_BIBLICAL_FOUNDATION.md` or an approved equivalent in the repository foundation
 - `PROJECT_VISION.md` or an approved equivalent in the repository foundation
 - `ROADMAP.md` or an approved roadmap location
 - `TODO.md` or an approved current-action location
@@ -33,17 +34,18 @@ A repository may use a documented equivalent when its approved family standard p
 Every repository must provide clear authoritative locations for:
 
 1. Project identity and purpose
-2. Current state
-3. System architecture
-4. Hardware or platform engineering, when applicable
-5. Software and configuration, when applicable
-6. Testing and verification
-7. Operations or deployment procedures
-8. Engineering journal records
-9. Design decisions
-10. Lessons learned
-11. Reference material
-12. Security and private-asset handling, when applicable
+2. Official name, origin, meaning, and relationship to the mission
+3. Current state
+4. System architecture
+5. Hardware or platform engineering, when applicable
+6. Software and configuration, when applicable
+7. Testing and verification
+8. Operations or deployment procedures
+9. Engineering journal records
+10. Design decisions
+11. Lessons learned
+12. Reference material
+13. Security and private-asset handling, when applicable
 
 ## Documentation Rules
 
@@ -59,9 +61,16 @@ Every repository must provide clear authoritative locations for:
 
 - Use descriptive names.
 - Use consistent capitalization within each repository.
+- Preserve the approved official spelling of the project or platform name.
+- Document the name's biblical, linguistic, historical, or organizational foundation without inventing unsupported claims.
+- Explain how the approved meaning relates to the project's actual mission.
+- Include a concise canonical answer that Bezalel, EXODUS, and future approved systems may use.
+- State clearly when a project name is symbolic and does not claim a spiritual identity, divine authority, or verified operational capability.
 - Use ISO dates in dated filenames: `YYYY-MM-DD`.
 - Do not create multiple folders serving the same information role.
 - Do not create a new abbreviation without defining it.
+
+Detailed naming requirements are defined in `standards/Platform_Naming_and_Purpose_Standard.md`.
 
 ## Change Management
 

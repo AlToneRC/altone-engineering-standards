@@ -17,11 +17,12 @@ When answering a project question, an approved AI system should use this order:
 3. Read `project-manifest.yaml` when available.
 4. Use the manifest to locate the correct information role.
 5. Consult the current-state document for project-status questions.
-6. Consult architecture and subsystem documentation for technical questions.
-7. Consult tests for verified capability claims.
-8. Consult design decisions for the reasons behind choices.
-9. Consult the engineering journal for historical sequence and implementation context.
-10. Use commit history as supporting evidence when necessary.
+6. Consult the approved name-and-purpose document for questions about a project's name, biblical foundation, meaning, motto, or symbolism.
+7. Consult architecture and subsystem documentation for technical questions.
+8. Consult tests for verified capability claims.
+9. Consult design decisions for the reasons behind choices.
+10. Consult the engineering journal for historical sequence and implementation context.
+11. Use commit history as supporting evidence when necessary.
 
 ## Source Authority
 
@@ -39,6 +40,7 @@ An approved AI system must:
 - Identify the exact document path used when possible.
 - Distinguish current, verified, planned, proposed, and superseded information.
 - Distinguish measurements from estimates.
+- Preserve approved names, spellings, scriptural references, meanings, and stated symbolic boundaries.
 - Avoid inventing files, paths, repositories, specifications, or capabilities.
 - State clearly when required information is missing or stale.
 - Avoid treating a placeholder file as proof of implementation.
@@ -51,6 +53,7 @@ Each active repository should contain a root-level `project-manifest.yaml`.
 The manifest declares:
 
 - Project name
+- Approved name-and-purpose document
 - Repository family
 - Standards version
 - Project status

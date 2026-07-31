@@ -18,6 +18,7 @@ ownership:
 
 authoritative_paths:
   readme: "README.md"
+  name_and_biblical_foundation: "PATH_TO_NAME_AND_BIBLICAL_FOUNDATION"
   vision: "PROJECT_VISION.md"
   current_state: "PATH_TO_CURRENT_STATE"
   architecture: "PATH_TO_ARCHITECTURE"
@@ -38,6 +39,7 @@ authoritative_paths:
 # scripts, documentation, learning, and configuration paths.
 information_roles:
   foundation: "00_Foundation"
+  name_and_purpose: "PATH_TO_NAME_AND_BIBLICAL_FOUNDATION"
   architecture: "01_Architecture_OR_01_System_Architecture"
   current_state: "PATH_TO_CURRENT_STATE"
 
