@@ -40,6 +40,8 @@ A repository may use `02_Workstation` or `02_Hardware` depending on the system. 
 
 Project identity, mission, vision, philosophy, responsibilities, authority, naming, communication style, registry information, and ecosystem relationships.
 
+The repository's approved name-and-purpose record should be stored here or mapped here through `project-manifest.yaml`.
+
 ### `01_Architecture`
 
 System design, current state, AI or software architecture, networking, security architecture, memory, boot process, reliability, failover, and major system relationships.
@@ -95,6 +97,10 @@ Images, diagrams, approved media, and supporting non-source assets.
 ## Current-State Requirement
 
 Every AI or computing repository must provide one clearly identified current-state document. Its path must be declared in `project-manifest.yaml`.
+
+## Name-and-Purpose Requirement
+
+Every AI or computing repository must provide one approved document explaining its official name, source references, defined meaning, relationship to the system mission, boundaries, and canonical answer. The path must be declared in `project-manifest.yaml` when the manifest is adopted.
 
 ## Retrieval Requirement
 

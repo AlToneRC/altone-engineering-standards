@@ -8,7 +8,7 @@
 
 This family is used for autonomous vehicles, boats, aircraft, rovers, mobile platforms, robots, and other hardware-centered engineering systems.
 
-Current and planned examples include Praxis Aqua 1, Ark Faithful Rover, and Cherub Wings.
+Current and planned examples include Praxis Aqua 1, Ark Faithful Rover, Cherub Wings, and Witness.
 
 ## Standard Structure
 
@@ -36,7 +36,9 @@ project-manifest.yaml
 
 ### `00_Foundation`
 
-Project identity, mission, vision, requirements, design targets, roadmap, current priorities, ownership, and project boundaries.
+Project identity, official name and meaning, mission, vision, requirements, design targets, roadmap, current priorities, ownership, and project boundaries.
+
+The repository's approved name-and-purpose record should be stored here or mapped here through `project-manifest.yaml`.
 
 ### `01_System_Architecture`
 
@@ -136,6 +138,21 @@ Every physical platform repository must provide one clearly identified current-s
 
 The path must be declared in `project-manifest.yaml`.
 
+## Name-and-Purpose Requirement
+
+Every physical-platform repository must provide one approved document explaining:
+
+- Official platform name and spelling
+- Biblical, linguistic, historical, or organizational foundation
+- Primary references
+- Defined meaning
+- Relationship between the name and the platform mission
+- Guiding principles
+- Boundaries on what the symbolic name does not claim
+- A concise canonical answer for approved AI retrieval
+
+The approved template is `templates/Platform_Name_and_Biblical_Foundation.md`.
+
 ## Design-Decision Requirement
 
 Major decisions must be recorded separately from daily build notes. Each decision should identify:
@@ -164,4 +181,4 @@ Migration must be controlled. Existing documents should be mapped into the new s
 4. Bezalel's Engineering Library Index and Project Registry are updated.
 5. Retrieval tests confirm continuity.
 
-Do not reorganize Ark Faithful Rover, Cherub Wings, or future platforms independently. They should begin from this approved family standard.
+Do not reorganize Ark Faithful Rover, Cherub Wings, Witness, or future platforms independently. They should begin from this approved family standard.
